@@ -81,7 +81,7 @@ TraderTraining/
 
 ## Database schema
 
-All migrations are in `supabase/migrations/` and have been applied to the Supabase project (`tddmihckgrzxmegynsrn`).
+All migrations are in `supabase/migrations/` and have been applied to the Supabase project (`uhlbospqolwjswhjfoba`).
 
 ### Tables
 
@@ -181,7 +181,7 @@ The Finnhub free-tier API key is stored only in `FINNHUB_API_KEY` (server-side e
 # .env.local — fill these in before running
 
 # Supabase (get from: supabase.com/dashboard/project/uhlbospqolwjswhjfoba/settings/api)
-NEXT_PUBLIC_SUPABASE_URL=https://tddmihckgrzxmegynsrn.supabase.co
+NEXT_PUBLIC_SUPABASE_URL=https://uhlbospqolwjswhjfoba.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJ...       # safe to expose (anon key)
 SUPABASE_SERVICE_ROLE_KEY=eyJ...           # SECRET — never NEXT_PUBLIC_
 
