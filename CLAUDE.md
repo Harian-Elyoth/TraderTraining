@@ -180,7 +180,7 @@ The Finnhub free-tier API key is stored only in `FINNHUB_API_KEY` (server-side e
 ```bash
 # .env.local — fill these in before running
 
-# Supabase (get from: supabase.com/dashboard/project/tddmihckgrzxmegynsrn/settings/api)
+# Supabase (get from: supabase.com/dashboard/project/rovtmdhhaprjpmwyospa/settings/api)
 NEXT_PUBLIC_SUPABASE_URL=https://tddmihckgrzxmegynsrn.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJ...       # safe to expose (anon key)
 SUPABASE_SERVICE_ROLE_KEY=eyJ...           # SECRET — never NEXT_PUBLIC_
@@ -226,12 +226,12 @@ npm run lint
 
 ## Supabase project
 
-- **Project ID**: `tddmihckgrzxmegynsrn`
-- **Region**: ap-northeast-2
-- **Dashboard**: `https://supabase.com/dashboard/project/tddmihckgrzxmegynsrn`
+- **Project ID**: `rovtmdhhaprjpmwyospa`
+- **Region**: eu-west-3 (Paris)
+- **Dashboard**: `https://supabase.com/dashboard/project/rovtmdhhaprjpmwyospa`
 - **Auth settings**: email/password enabled; email confirmation can be toggled in Auth > Settings.
 
-> **Note**: This Supabase project previously hosted an "EarlySignal-WebApp" and still has legacy tables (`account`, `events`, `session`, `subscriptions`, `user`, `verification`) without RLS enabled. Those tables are unrelated to TraderTraining. If that app is no longer active, consider enabling RLS on those tables or migrating to a separate Supabase project.
+This is a dedicated project — no unrelated tables or legacy data.
 
 ---
 
