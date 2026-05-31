@@ -180,7 +180,7 @@ The Finnhub free-tier API key is stored only in `FINNHUB_API_KEY` (server-side e
 ```bash
 # .env.local — fill these in before running
 
-# Supabase (get from: supabase.com/dashboard/project/rovtmdhhaprjpmwyospa/settings/api)
+# Supabase (get from: supabase.com/dashboard/project/uhlbospqolwjswhjfoba/settings/api)
 NEXT_PUBLIC_SUPABASE_URL=https://tddmihckgrzxmegynsrn.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJ...       # safe to expose (anon key)
 SUPABASE_SERVICE_ROLE_KEY=eyJ...           # SECRET — never NEXT_PUBLIC_
@@ -226,9 +226,9 @@ npm run lint
 
 ## Supabase project
 
-- **Project ID**: `rovtmdhhaprjpmwyospa`
-- **Region**: eu-west-3 (Paris)
-- **Dashboard**: `https://supabase.com/dashboard/project/rovtmdhhaprjpmwyospa`
+- **Project ID**: `uhlbospqolwjswhjfoba`
+- **Region**: ap-northeast-2 (Seoul)
+- **Dashboard**: `https://supabase.com/dashboard/project/uhlbospqolwjswhjfoba`
 - **Auth settings**: email/password enabled; email confirmation can be toggled in Auth > Settings.
 
 This is a dedicated project — no unrelated tables or legacy data.
